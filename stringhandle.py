@@ -14,3 +14,17 @@ print ONESTRING.isdigit()
 print ONESTRING.count("a")
 print MULTILINE.splitlines()
 print "\n".join(MULTILINE.splitlines())
+print list(ONESTRING)
+print ONESTRING*3
+
+# 1.1 每次处理一个字符
+for everystr in list(ONESTRING):
+    print everystr
+
+for everystr in ONESTRING:
+    print everystr
+
+results=[str.upper(everystr) for everystr in ONESTRING]
+mapresults=map(str.upper,ONESTRING)
+print results
+print mapresults
