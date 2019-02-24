@@ -1,4 +1,4 @@
 pycookbook
 ==========
 
-知名python营养菜谱的各种源码示例
+知名 python 营养菜谱的各种源码示例
